@@ -51,12 +51,15 @@ margin: 10px 5px;
 border: 2px solid #fff;
 border-radius: 3px;
 background-color: blue;
+color:#fff;
+font-family:inherit;
 }
 .choose-fruit-btn:active{
     transform: scale(0.98);
 }
 .choose-fruit-btn:hover{
     background-color: #fff;
+    color: #516dff;
 }
 .screen.up{
     margin-top: -100vh;
