@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+body{
+    font-family: 'Press Start 2P';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    margin: 0;
+    overflow: hidden;
+    flex-direction: column;
+}
+.screen{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    transition: all 1s ease;
+}
+.off{
+    display:none;
+}
+.btn{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    font-family: inherit;
+    color: blue;
+}
+.btn:active{
+    transform: scale(0.98);
+}
+.choose-fruit-btn img{
+    height: 100px;
+    width: 100px;
+}
+.fruit-list{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.choose-fruit-btn{
+margin: 10px 5px;
+border: 2px solid #fff;
+border-radius: 3px;
+background-color: blue;
+}
+.choose-fruit-btn:active{
+    transform: scale(0.98);
+}
+.choose-fruit-btn:hover{
+    background-color: #fff;
+}
+.screen.up{
+    margin-top: -100vh;
+}
+.time,.score{
+    position: absolute;
+    top: 20px;
+}
+.game-container{
+    position: relative;
+}
+.time{
+    left: 10px;
+}
+.score{
+    right: 10px;
+}
+.message{
+    line-height: 1.7;
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,-150%);
+    transition: all 0.4s ease;
+    opacity: 0;
+}
+.message.visible{
+    transform: translate(-50%,150%);
+    opacity: 1;
+}
+.insect{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    position:absolute;
+    transform: translate(-50%,-50%) scale(1);
+    transition: all 0.4s ease-in-out;
+}
+.insect.caught{
+    transform: translate(-50%,-50%) scale(0);
+}
+.insect img{
+    height: 100px;
+    width: 100px;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit Catch Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="screen">
+        <h2>Catch The Fruit</h2>
+        <button class="btn" id="start-btn">Play Game</button>
+    </div>
+    <div class="screen">
+        <h2> What is your favorite Fruit?</h2>
+        <ul class="fruit-list">
+            <li>
+                <button class="choose-fruit-btn">
+                    <p>Strawberry</p>
+                    <img src="pngimg.com - cherry_PNG3091.png" alt="strawberry">
+                </button>
+            </li>
+            <li>
+                <button class="choose-fruit-btn">
+                  <p>Apple</p>
+                  <img
+                     src="pngimg.com - apple_PNG12450.png"
+                     alt="apple"
+                     />
+                </button>
+              </li>
+              <li>
+                <button class="choose-fruit-btn">
+                  <p>Watermelon</p>
+                  <img
+                     src="watermelon.png"
+                     alt="watermelon"
+                     />
+                </button>
+              </li>
+              <li>
+                <button class="choose-fruit-btn">
+                  <p>Pomegranate</p>
+                  <img
+                     src="pngimg.com - orange_PNG811.png"
+                     alt="pomegranate"
+                     />
+                </button>
+              </li>
+            </ul>
+        </ul>
+    </div>
+    <div class="screen game-container" id="game-container">
+        <h3 id="time" class="time">Time: 00:00</h3>
+        <h3 id="score" class="score">Score: 0</h3>
+
+        <h5 id="message" class="message">
+          Are you annoyed yet? <br>
+          You are playing an impossible game!!
+        </h5>
+      </div>
+    <script src="script.js"></script>
+</body>
+</html>
