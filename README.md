@@ -1,4 +1,7 @@
 Live Link-https://shaiksufiyan157.github.io/Fruit-catch-game/
+
+
+
 Fruit Catch Game
 Overview
 Fruit Catch is a fun and interactive game where players must catch falling fruits while avoiding obstacles. The goal is to score as many points as possible by catching the right fruits within a given time frame. It is built with HTML, CSS, and JavaScript to provide a smooth and engaging user experience.
