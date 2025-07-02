@@ -7,7 +7,6 @@ Fruit Catch is an endless, fast-paced game where players control a basket to cat
 - **Endless Gameplay**: The game never ends! Each time you click on a fruit, two more spawn, keeping the challenge alive.
 - **Real-Time Scoring**: Catch fruits to increase your score. The faster you catch them, the more challenging it gets!
 - **Click-to-Spawn Mechanics**: Each time you successfully click on a fruit, it disappears and two new fruits will spawn, adding excitement and variety to the game.
-- **Easy Controls**: Move your basket left and right using the arrow keys or your mouse.
 
 ## 🚀 Installation
 
